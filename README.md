@@ -35,7 +35,7 @@ Wrapper class for the current API of Arnold for c4d
 - get_data, retrieve data from previous
 
 ## Examples
-Basic exemple for create an arnold material, a standard node link to the beauty and a user_data_rgb linked to the weight color of the standard.
+Basic exemple for create an arnold material, a standard node link to the beauty and a user_data_rgb linked to the color of the standard.
 ```
 import c4d
 from arnold_wrapper.Arnold import Arnold
