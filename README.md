@@ -27,6 +27,11 @@ Wrapper class for the current API of Arnold for c4d
 
 ### Connection
 **Connection class represent a connection inside an arnold shader network.**
+- **READ-ONLY CLASS** at the moment changin value of a connection have no impact on the material
+- **READ-ONLY** member variable : input_node, the starting Node used as source
+- **READ-ONLY** member variable : input_port, the port id used in the source Node
+- **READ-ONLY** member variable : output_node, the destination Node
+- **READ-ONLY** member variable : input_node, the port id used in the destination Node
 
 ### Message
 **Message wrap the current arnold API. Basic workflow set_data => send => get_data, You normally never have to deal with this class**
