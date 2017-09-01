@@ -14,10 +14,7 @@ class Connection(Utility):
         return str(self)
 
     def __str__(self):
-        if not self.input_port or not self.input_node or not self.output_port or not self.output_node:
-            return None
-
-        string = "input: {}-{} // output port: {}-{}".format(
+        string = "input: {}-{} // output: {}-{}".format(
             self.input_port,
             self.input_node,
             self.output_port,
@@ -28,5 +25,5 @@ class Connection(Utility):
     def __init__(self, bc):
         self.input_node = Node(bc.GetLink(0))
         self.input_port = bc.GetInt32(1)
-        self.output_node = bc.GetLink(2)
-        self.output_port = Node(bc.GetInt32(3))
+        self.output_node = Node(bc.GetLink(2))
+        self.output_port = bc.GetInt32(3)
