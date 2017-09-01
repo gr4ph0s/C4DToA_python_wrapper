@@ -65,7 +65,7 @@ c4d.EventAdd()
 ```
 
 ### Installation
-<<<<<<< HEAD
+
 To use it as a library simply copy arnold_wrapper folder into
 - Windows
 ```
@@ -76,12 +76,8 @@ To use it as a library simply copy arnold_wrapper folder into
 /Users/"YOURUSERNAME"/Library/Preferences/MAXON/CINEMA 4D R15_8C725DAB/library/python/packages/win64
 ```
 
-Even if I suggest to use it as a library you are free to only include it into your project. For doing it in proper way I suggest you to read
-=======
-Even if you could do basic import I suggest you to read 
-[Best Practice For Imports from official support forum](http://www.plugincafe.com/forum/forum_posts.asp?TID=10727)
-and then use 
-[py-localimport](https://gist.github.com/NiklasRosenstein/f5690d8f36bbdc8e5556) from [Niklas Rosenstein](https://github.com/NiklasRosenstein)
+Even if I suggest to use it as a library you are free to only include it into your project. For doing it in proper way I suggest you to read [Best Practice For Imports from official support forum](http://www.plugincafe.com/forum/forum_posts.asp?TID=10727)
+and then use [py-localimport](https://gist.github.com/NiklasRosenstein/f5690d8f36bbdc8e5556) from [Niklas Rosenstein](https://github.com/NiklasRosenstein)
 
 ### Compatibility
 Tested and build on C4dToA 2.0+ and R17/R18
