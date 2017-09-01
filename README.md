@@ -27,7 +27,6 @@ Wrapper class for the current API of Arnold for c4d
 
 ### Connection
 **Connection class represent a connection inside an arnold shader network.**
-- **READ-ONLY CLASS** at the moment changin value of a connection have no impact on the material
 - **READ-ONLY** member variable : input_node, the starting Node used as source
 - **READ-ONLY** member variable : input_port, the port id used in the source Node
 - **READ-ONLY** member variable : output_node, the destination Node
@@ -68,6 +67,9 @@ arnold.connect_beauty(standard_node.get_node(), 0)
 
 c4d.EventAdd()
 ```
+Another exemple with more interactions with material can be found [here](https://github.com/gr4ph0s/C4DToA_python_wrapper/blob/master/exemple/add_mix_to_existant.py)
+![add_mix_to_existant.py](https://img11.hostingpics.net/pics/115490beforeafter.jpg)
+
 
 ### Installation
 
